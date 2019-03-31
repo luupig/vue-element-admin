@@ -22,7 +22,7 @@ const planmgtRouter = {
       path: 'line',
       component: () => import('@/views/charts/line'),
       name: 'LineChart',
-      meta: { title: 'lineChart', noCache: true }
+      meta: { title: '计划模型', noCache: true }
     },
     {
       path: 'mixchart',
